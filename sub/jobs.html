@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Jobs Portal</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/slider.css">    
+    <link rel="stylesheet" href="../css/footerSvg.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/hover.css">
+</head>
+<body class="bg-transparent">
+  <nav class="pretty-nav d-flex justify-content-between bg-dark fixed-top">
+    <div class="navbar-brand logo ml-xl-2 mb-3">
+      <a href="../index.html">
+        <img id="img_logo" src="../src/img/logo.png" alt="logo.png">
+      </a>  
+    </div>    
+    <div>
+      <button onclick="this.classList.toggle('collapsed');document.getElementById('nav-links').classList.toggle('expanded')">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul id="nav-links">
+        <li><a href="./sub/jobs.html" class="p-2 text-white">Jobs Category</a></li>
+        <li><a href="#" class="p-2 text-white">News</a></li>
+        <li><a href="#" class="p-2 text-white">Contact Us</a></li>
+        <li><a href="#" class="p-2 text-white">Sign up</a></li>
+      </ul>
+    </div>
+  </nav>  
+    <header class="headers">
+        <div class="container-fluidS">
+          <div class="jumbotron-fluid jumbotron-fluid justify-content-sm-center text-center m-0 pt-3 bg-transparent">
+            <div class="slider-container">
+              <div class="showSlide fade">
+                  <img src="../src/img/img_1.jpg" alt="image 1">
+              </div>
+              <div class="showSlide fade">
+                  <img src="../src/img/img_2.jpg" alt="image 2">
+              </div>
+              <div class="showSlide fade">
+                  <img src="../src/img/img_3.jpg" alt="image 3">
+              </div>
+              <div class="showSlide fade">
+                  <img src="../src/img/img_4.jpg" alt="image 4">
+              </div>
+              <div class="showSlide fade">
+                  <img src="../src/img/img_5.jpg" alt="image 5">
+              </div>
+              <div style="text-align:center">
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                  <span class="dot"></span>
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+              </div>
+          </div>
+          </div>
+        </div>        
+      </header>
+    <main>
+      <main>
+        <div class="container-fluidS">
+          <div class="jumbotron-fluid justify-content-sm-center text-center">
+            <h1>Jobs Category</h1>
+            <hr>
+          </div>
+        </div>
+        <div class="category-contn">
+          <div class="category row">
+                     
+          </div>
+          <div class="container-fluidS">
+            <h1>Web Developer Jobs</h1>
+              <hr>
+            <div class="res-cntr jumbotron-fluid">
+              
+            </div>
+          </div>
+          <div class="result-container jumbotron-fluid justify-content-sm-center text-center">
+      
+          </div>      
+        </div>
+      </main>
+      <script src="../js/jobs.js"></script>
+    </main>
+      <hr class="border-info p-0 m-0">
+      <footer>
+        <svg viewBox="0 0 120 28">
+          <defs> 
+             <filter id="goo">
+               <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur" />
+               <feColorMatrix in="blur" mode="matrix" values="
+                    1 0 0 0 0  
+                    0 1 0 0 0  
+                    0 0 1 0 0  
+                    0 0 0 13 -9" result="goo" />
+               <xfeBlend in="SourceGraphic" in2="goo" />
+             </filter>
+              <path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+           </defs> 
+         
+            <use id="wave3" class="wave" xlink:href="#wave" x="0" y="11" ></use> 
+            <use id="wave2" class="wave" xlink:href="#wave" x="0" y="11" ></use>
+          
+          
+           <g class="gooeff" filter="url(#goo)">
+           <use id="wave1" class="wave" xlink:href="#wave" x="0" y="11" />
+          </g>
+        </svg>
+        <div class="d-flex flex-row">
+          <div class="col-12 col-md ml-5">
+            <h5>E-Jobs Portal</h5>
+            <small class="d-block mb-3">&copy; 2020-2021</small>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Navigation</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="index.html">Home</a></li>
+              <li><a class="link-secondary" href="./sub/jobs.html">Jobs</a></li>
+              <li><a class="link-secondary" href="#">Candidates</a></li>
+              <li><a class="link-secondary" href="https://www.adzuna.com/">Partners</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Follow Us</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="#">Blog</a></li>
+              <li><a class="link-secondary" href="https://twitter.com/">Twitter</a></li>
+              <li><a class="link-secondary" href="https://www.facebook.com/">Facebook</a></li>
+              <li><a class="link-secondary" href="https://www.youtube.com/">Youtube</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Popular Jobs</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="./sub/webdev.html">Web Developer</a></li>
+              <li><a class="link-secondary" href="#">Web Designer</a></li>
+              <li><a class="link-secondary" href="#">UX Engineer</a></li>
+              <li><a class="link-secondary" href="#">Account Manager</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <script src="../js/app.js"></script>
+</body>
+</html>

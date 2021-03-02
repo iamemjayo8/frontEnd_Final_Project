@@ -1,0 +1,48 @@
+.svg-wrapper {
+  height: 40px;
+  margin: 0 auto;
+  position: relative;
+  top: 15px;
+  transform: translateY(-50%);
+  width: 180px;
+  top: 65px;
+}
+
+.shape {
+  fill: transparent;
+  stroke-dasharray: 120 540;
+  stroke-dashoffset: -215;
+  stroke: rgb(29, 80, 233);
+}
+.searchHover {
+  top: 40%;
+}
+
+#js-container #searchjob{
+  color: rgb(225, 223, 230);
+  font-family: 'Roboto Condensed';
+  font-size: 22px;
+  height: 40px;
+  letter-spacing: 1px;
+  line-height: 5px;
+  position: relative;
+  top: -40px;
+}
+
+@keyframes draw {
+  0% {
+    stroke-dasharray: 120 540;
+    stroke-dashoffset: -468;
+    stroke-width: 8px;
+  }
+  100% {
+    stroke-dasharray: 760;
+    stroke-dashoffset: 0;
+    stroke-width: 2px;
+  }
+}
+
+.svg-wrapper:hover .shape {
+  -webkit-animation: 0.5s draw linear forwards;
+  animation: 0.5s draw linear forwards;
+}

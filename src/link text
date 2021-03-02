@@ -1,0 +1,5 @@
+https://api.adzuna.com/v1/api/jobs/gb/search/1?app_id=fcd9ebeb&app_key=890b35597209bccf850ad0e521ebce52&results_per_page=20&what=web%20developer
+
+https://api.adzuna.com/v1/api/{vertical}/gb/categories?app_id=fcd9ebeb&app_key=890b35597209bccf850ad0e521ebce52
+
+https://api.adzuna.com/v1/api/jobs/gb/search/1?app_id=fcd9ebeb&app_key=890b35597209bccf850ad0e521ebce52&results_per_page=20&what=Web%20Designer
